@@ -1,0 +1,33 @@
+<div class="modal fade" id="addReviewModal" tabindex="-1" role="dialog" aria-labelledby="addReviewModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="addReviewModalLabel">Add review</h4>
+                <button type="button" class="close addReviewModalCloseBtn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">X</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBodyContent">
+                <div class="form-group">
+                    <label class="control-label">Author name</label>
+                    <input id="new-review-author" class="form-control author-name" type="text" value="<%- author %>">
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Review text</label>
+                    <input id="new-review-text" class="form-control review-text" type="text" value="<%- text %>">
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Press Ctrl + C for Screenshot</label>
+                    <img class="form-control new-screenshot">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default addReviewModalCloseBtn" data-dismiss="modal">Close
+                </button>
+                <button type="button" class="btn btn-primary addReviewModalAcceptBtn">Save
+                    review
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
