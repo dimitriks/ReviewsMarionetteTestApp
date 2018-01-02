@@ -1,6 +1,7 @@
+'use strict';
+
 var Marionette = require('backbone.marionette');
 var html2canvas = require('html2canvas');
-var $ = require('jquery');
 
 var AddReview = Marionette.View.extend({
     template: require('../templates/addReview.html'),

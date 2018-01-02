@@ -1,3 +1,5 @@
+'use strict';
+
 var Marionette = require('backbone.marionette');
 var Router = require('./router');
 

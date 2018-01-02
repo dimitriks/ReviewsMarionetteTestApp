@@ -1,3 +1,5 @@
+'use strict';
+
 var Marionette = require('backbone.marionette');
 
 var Review = Marionette.View.extend({
